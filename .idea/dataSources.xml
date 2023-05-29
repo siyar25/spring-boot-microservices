@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:postgresql://localhost:5432/order-service</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="inventory-service@localhost" uuid="35c62d87-c856-4511-a6b4-642b001bde90">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/inventory-service</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
